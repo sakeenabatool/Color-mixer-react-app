@@ -6,7 +6,8 @@ import "./App.css";
 function App() {
   const [color, setColor] = useState("white");
   function changeColor(colorp) {
-    if (
+    if (colorp === "white") setColor("white");
+    else if (
       (color === "yellow" && colorp == "red") ||
       (color === "red" && colorp == "yellow")
     )
@@ -34,8 +35,14 @@ function App() {
       className="w-full h-screen duration-200"
       style={{ backgroundColor: color }}
     >
-      <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2 py-2 rounded-3xl border-2">
+      <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2 py-2 rounded-3xl ">
         <div className=" flex flex-wrap justify-center gap-3 shadow-lg bg-gray-700 px-2 py-2 rounded-2xl">
+          <button
+            className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+            onClick={() => changeColor("white")}
+          >
+            white
+          </button>
           <button
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
             onClick={() => changeColor("red")}
