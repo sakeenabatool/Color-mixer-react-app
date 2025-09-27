@@ -19,6 +19,6 @@ A simple React + Vite + Tailwind CSS project that lets you mix **primary colors*
 ##  Installation & Setup
 
 Clone the repo and install dependencies:
-git clone https://github.com/USERNAME/color-mixer.git
+git clone https://github.com/sakeenabatool/Color-mixer-react-app.git  
 cd color-mixer
 npm install
