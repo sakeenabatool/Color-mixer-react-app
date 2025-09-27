@@ -1,16 +1,24 @@
-# React + Vite
+##  Color Mixer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Vite + Tailwind CSS project that lets you mix **primary colors** (Red, Yellow, Blue) to form secondary colors like **Orange, Green, and Purple**.  
 
-Currently, two official plugins are available:
+##  Features
+- Click buttons to change the background color.  
+- Mix primary colors to create new ones.  
+- Responsive and minimal UI using **Tailwind CSS**.  
+- Built with **React + Vite** for fast development.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Demo
+👉 (https://github.com/sakeenabatool/Color-mixer-react-app)   
 
-## React Compiler
+## 🛠️ Tech Stack
+- **React (Vite)**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Installation & Setup
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repo and install dependencies:
+git clone https://github.com/sakeenabatool/Color-mixer-react-app.git  
+cd color-mixer
+npm install
